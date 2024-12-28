@@ -424,8 +424,8 @@ color: #f4f4fd;
     overflow: hidden;
 }
 
-.portfolio-image {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.portfolio-image{
+   transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-image:hover {
     box-shadow: 
