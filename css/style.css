@@ -74,7 +74,7 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    transition: color, 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item-address:hover, .item-address:focus {
     color: #404bbf; 
@@ -236,11 +236,15 @@ color: #f4f4fd;
     content: '';
     position: absolute;
     bottom: -1px;
-    background-color: #4d5ae5;
+    background-color: #404bbf;
     border-radius: 2px;
     height: 4px;
     width: 100%;
     left: 0;
+}
+
+.item.current {
+    color: #404bbf;
 }
 .item {
     position: relative;
@@ -273,7 +277,16 @@ color: #f4f4fd;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+.section-advantages.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
 .advantages-list {
     display: flex;
     gap: 24px;
