@@ -419,15 +419,15 @@ color: #f4f4fd;
     margin-bottom: 8px
 }
 
-.image-container{
+.wrap-portfolio{
     position:relative; 
     overflow: hidden;
 }
 
-.wrap-portfolio {
+.portfolio-image {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.wrap-portfolio:hover {
+.portfolio-image:hover {
     box-shadow: 
     0 2px 1px 0 rgba(46, 47, 66, 0.08), 
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
@@ -453,7 +453,7 @@ color: #f4f4fd;
     padding: 40px 32px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.overlay :hover .overlay,.overlay :focus .overlay { 
+.portfolio-image:hover .overlay { 
     transform:translateY(0);
 }
 .container-portfolio {
