@@ -311,6 +311,7 @@ color: #f4f4fd;
     background-color: #f4f4fd;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 .team-section {
@@ -456,7 +457,7 @@ color: #f4f4fd;
 .footer {
     padding: 100px 0
 }
-.footer.container{
+.footer .container{
     display:flex;
     align-items: baseline;
 }
